@@ -65,6 +65,13 @@ limitations under the License.
   <script src="/__/firebase/init.js"></script>
 
   <script>
+var firebaseConfig = {
+    apiKey: 'AIzaSyCDwVw13Kua_e-euazt72HzX_37XMTM_lM',
+    authDomain: 'storage-app-e1c0b.firebaseapp.com',
+    databaseURL: 'https://storage-app-e1c0b.firebaseio.com/',
+    storageBucket: 'gs://storage-app-e1c0b.appspot.com'
+  };
+  firebase.initializeApp(firebaseConfig);    
     var auth = firebase.auth();
     var storageRef = firebase.storage().ref();
 
