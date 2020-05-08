@@ -2,7 +2,7 @@ $(document).ready(function(){
   alert('Hello World')});
 
 $(".login-btn").click(function(){
-alert('Hello World')
+alert('Hello Worlds')
 $("h1").hide()
   var firebaseConfig = {
     apiKey: "AIzaSyAGt0RdAXqs9pi6-H2pMzy_SIq8CF4OQFY",
