@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 $(".login-btn").click(function(){
 alert('Hello World')
-
+$(".login-btn").append("1")
   var firebaseConfig = {
     apiKey: "AIzaSyAGt0RdAXqs9pi6-H2pMzy_SIq8CF4OQFY",
     authDomain: "trialcasesdatabase.firebaseapp.com",
@@ -19,5 +19,5 @@ alert('Hello World')
 
   rootRef.child('first').set('Ada');
 
-$(".login-btn").append("1")
+//$(".login-btn").append("1")
 });
