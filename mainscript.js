@@ -19,5 +19,5 @@ alert('Hello Worlds')
 
   rootRef.child('first').set('Ada');
 
-$("h1").hide()
+$("h1").append("1")
 });
