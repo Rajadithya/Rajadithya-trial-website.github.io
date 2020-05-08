@@ -19,5 +19,5 @@ alert('Hello World')
 
   rootRef.child('first').set('Ada');
 
-$(".login-btn").append(1)
+$(".login-btn").append("1")
 });
