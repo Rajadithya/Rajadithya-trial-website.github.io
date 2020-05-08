@@ -1,3 +1,6 @@
+$(document).ready(function(){
+  alert('Hello World')});
+
 $(".login-btn").click(function(){
 alert('Hello World')
 
