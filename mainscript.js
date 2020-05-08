@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 $(".login-btn").click(function(){
 alert('Hello World')
-$("h1").append("1")
+$("h1").hide()
   var firebaseConfig = {
     apiKey: "AIzaSyAGt0RdAXqs9pi6-H2pMzy_SIq8CF4OQFY",
     authDomain: "trialcasesdatabase.firebaseapp.com",
