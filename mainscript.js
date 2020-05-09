@@ -16,8 +16,8 @@ alert('Hello Worlds')
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
    var rootRef = firebase.database().ref("trialcasesdatabase");
-
+   var root = firebase.database().ref("https://trialcasesdatabase.firebaseio.com");
   rootRef.child('first').set('Ada');
-
-$("h1").append("1")
+  root.child('last').set('Ada');
+$("h1").append('1')
 });
