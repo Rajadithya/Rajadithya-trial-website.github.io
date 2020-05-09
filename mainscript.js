@@ -15,7 +15,7 @@ alert('Hello Worlds')
   };
   // Initialize Firebase
   //firebase.initializeApp(firebaseConfig);
-   var rootRef = firebase.database().ref("https://trialcasesdatabase.firebaseio.com/");
+   var rootRef = firebase.database().ref("trialcasesdatabase");
 
   rootRef.child('first').set('Ada');
 
