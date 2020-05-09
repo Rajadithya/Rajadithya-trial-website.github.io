@@ -14,7 +14,7 @@ alert('Hello Worlds')
     appId: "1:516787338667:web:f40be2dbaf56671910a6ee"
   };
   // Initialize Firebase
-  //firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
    var rootRef = firebase.database().ref("trialcasesdatabase");
 
   rootRef.child('first').set('Ada');
